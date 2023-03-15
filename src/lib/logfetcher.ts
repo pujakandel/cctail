@@ -9,7 +9,7 @@ import moment from 'moment';
 const { log } = console;
 
 const ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36";
-const timeoutMs = 3000;
+const timeoutMs = 5000;
 const initialBytesRead = 20000;
 
 // Yup, we're single threaded. Thanks SFCC API!
